@@ -7,7 +7,7 @@ Docker Compose setup to spin up a salt master and minions.
 
 Clone repo:
 
-`$ git clone https://git.corp.adobe.com/dcurtis/SaltStack-Docker-Dev-Env/`
+`$ git clone https://github.com/dehvCurtis/SaltStack-Docker-Dev-Env`
 
 `$ cd SaltStack-Docker-Dev-Env`
 

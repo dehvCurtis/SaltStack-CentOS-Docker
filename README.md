@@ -15,7 +15,7 @@ Startup both Master and Minion:
 
 `$ docker-compose up`
 
-  #This window will display debugging output from the salt master and minions
+*This window will display debugging output from the salt master and minions*
 
 Open new terminal window and ensure you are in SaltStack-Docker-Dev-Env/
 
@@ -43,7 +43,7 @@ Now test with a ping from your Master:
 
 `$ salt '*' test.ping`
 
-  #The salt-master is set up to accept all minions that try to connect. Only minions within the docker-compose service network will be able to connect.
+*The salt-master is set up to accept all minions that try to connect. Only minions within the docker-compose service network will be able to connect.*
 
 # Running Multiple Minions:
 
@@ -53,3 +53,15 @@ Now test with a ping from your Master:
 
 # Host Names
 The **hostnames** match the names of the containers - so the master is `salt-master` and the minion is `salt-minion`.
+
+# Updating Docker-Compse build
+
+*If needed, you can make changes to the Docker instance, including adding additional binary packages to the docker stack by performing the following:*
+
+`$ cd /SaltStack-Docker-Dev-Env`
+
+Make needed changes to the DockerFile(s) and save files
+
+`$ docker-compose build`
+
+`$ docker-compose up`

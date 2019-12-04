@@ -52,9 +52,9 @@ Now test with a ping from your Master:
 *If you are running more than one minion with `--scale=2`, you will need to use `docker-saltstack_salt-minion_1` and `docker-saltstack_salt-minion_2` for the minions if you want to target them individually.*
 
 # Host Names
-The **hostnames** match the names of the containers - so the master is `salt-master` and the minion is `salt-minion`.
+The **hostnames** match the names of the containers so the salt master name is `salt-master` and the salt minion name is `salt-minion`.
 
-# Updating Docker-Compse build
+# Updating Docker-Compse OS build
 
 *If needed, you can make changes to the Docker instance, including adding additional binary packages to the docker stack by performing the following:*
 

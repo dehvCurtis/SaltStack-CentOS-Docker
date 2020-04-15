@@ -3,7 +3,7 @@ FROM centos:7
 RUN yum install -y --nogpgcheck epel-release && \
     yum install -y --nogpgcheck https://repo.saltstack.com/yum/redhat/salt-repo-latest-2.el7.noarch.rpm && \
     yum update -y && \
-    yum install -y virt-what salt-minion nano tree vim-full net-tools && \
+    yum install -y virt-what salt-minion nano tree vim-full net-tools git && \
     yum clean all && \
     rm -rf /var/cache/yum
 

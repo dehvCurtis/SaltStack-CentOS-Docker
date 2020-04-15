@@ -7,9 +7,9 @@ Docker Compose setup to spin up a salt master and minions.
 
 Clone repo:
 
-`$ git clone https://github.com/dehvCurtis/SaltStack-Docker-Dev-Env`
+`$ git clone https://github.com/dehvCurtis/SaltStack-CentOS-Docker`
 
-`$ cd SaltStack-Docker-Dev-Env`
+`$ cd SaltStack-CentOS-Docker`
 
 Startup both Master and Minion:
 

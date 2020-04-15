@@ -1,4 +1,4 @@
-# SaltStack-CentOS-Docker
+# CentOS SaltStack Docker Test Environment
 Docker Compose setup to spin up a salt master and minions.
 
 # Quick Start Guide

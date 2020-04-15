@@ -1,4 +1,4 @@
-# SaltStack-Docker-Dev-Env
+# SaltStack-CentOS-Docker
 Docker Compose setup to spin up a salt master and minions.
 
 # Quick Start Guide
@@ -58,7 +58,7 @@ The **hostnames** match the names of the containers so the salt master name is `
 
 *If needed, you can make changes to the Docker instance, including adding additional binary packages to the docker stack by performing the following:*
 
-`$ cd /SaltStack-Docker-Dev-Env`
+`$ cd /SaltStack-CentOS-Docker`
 
 Make needed changes to the DockerFile(s) and save files
 

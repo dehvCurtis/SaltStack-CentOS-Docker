@@ -7,7 +7,7 @@ Docker Compose setup to spin up a salt master and minions.
 
 Clone repo:
 
-`$ git clone https://github.com/dehvCurtis/SaltStack-CentOS-Docker`
+`$ git fork https://git.corp.adobe.com/dcurtis/SaltStack-Docker-CentOS`
 
 `$ cd SaltStack-CentOS-Docker`
 
